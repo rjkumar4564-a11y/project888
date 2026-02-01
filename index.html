@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            background-image: url("cricket.jpeg");
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-attachment: fixed;
+        }
+        #grad1 {
+            height: 400px;
+            background-color: bisque;
+            background-image: linear-gradient(to top right, red, blue, yellow, orange,lavender, pink, brown);
+        }
+        @keyframes example {
+            0% {background-color: aquamarine;}
+            25% {background-color: blanchedalmond;}
+            50% {background-color: brown;}
+            100% {background-color: bisque;}
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            animation-name: example;
+            animation-duration: 4s;
+        }
+    </style>
+</head>
+<body>
+    CRICKET
+    <p>CRICKET IS THE NATIONAL GAME OF ENGLAND</p>
+    <div id="grad1">CRICKET TEST SERIES</div>
+    <div>ICC</div>
+</body>
+</html>
